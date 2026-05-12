@@ -1,0 +1,35 @@
+.fi-layout,
+.fi-topbar,
+.fi-main-ctn,
+.fi-main,
+.fi-page,
+.fi-page-body,
+.fi-fo-component-ctn,
+.fi-fo-field-wrp,
+.fi-fo-repeater,
+.fi-input-wrp,
+.fi-input-wrp-input {
+    overflow: visible !important;
+}
+
+.fi-fo-select .choices__list--dropdown,
+.fi-fo-select .choices__list[aria-expanded] {
+    z-index: 9999 !important;
+}
+
+.ts-dropdown,
+.tomselect .ts-dropdown {
+    z-index: 9999 !important;
+}
+
+.flatpickr-calendar {
+    z-index: 9999 !important;
+}
+
+.fi-dropdown-panel {
+    z-index: 9999 !important;
+}
+
+.tippy-box {
+    z-index: 9999 !important;
+}
